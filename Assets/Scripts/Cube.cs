@@ -13,7 +13,7 @@ public class Cube : MonoBehaviour
     private Vector3 triangleSize = Vector3.one;
 
     [SerializeField]
-    private int submeshCount = 7;
+    private int submeshCount = 6;
 
     [SerializeField]
     private int submeshTopIndex = 0;
@@ -32,8 +32,6 @@ public class Cube : MonoBehaviour
 
     [SerializeField]
     private int submeshRightIndex = 5;
-
-
 
 
     public Vector3 pos;
